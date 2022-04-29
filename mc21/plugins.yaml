@@ -45,6 +45,7 @@ plugins:
 - {id: cloudbees-platform-common}
 - {id: cloudbees-platform-data}
 - {id: cloudbees-plugin-usage}
+- {id: cloudbees-prometheus}
 - {id: cloudbees-quiet-start}
 - {id: cloudbees-support}
 - {id: cloudbees-template}
@@ -107,6 +108,7 @@ plugins:
 - {id: plugin-util-api}
 - {id: popper-api}
 - {id: popper2-api}
+- {id: prometheus}
 - {id: pubsub-light}
 - {id: scm-api}
 - {id: script-security}
@@ -130,3 +132,4 @@ plugins:
 - {id: workflow-scm-step}
 - {id: workflow-step-api}
 - {id: workflow-support}
+- {id: active-directory}
