@@ -1,6 +1,6 @@
 id: "git-bundle-mc21"
 apiVersion: "1"
-version: "3"
+version: "5"
 description: "A simple bundle that sets up a master with the pipeline template catalog"
 parent: "mc1"
 availabilityPattern: "mc-blue|mc-orange"
@@ -8,5 +8,3 @@ jcasc:
   - "jenkins.yaml"
 plugins:
   - "plugins.yaml"
-catalog:
-  - "plugin-catalog.yaml"
