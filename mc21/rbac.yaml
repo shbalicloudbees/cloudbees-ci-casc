@@ -104,7 +104,7 @@ roles:
 groups:
 - members:
     users:
-    - admin
+    - shbali
   roles:
   - name: administer
     grantedAt: current
@@ -113,11 +113,4 @@ groups:
   - name: develop
     grantedAt: current
   name: Developers
-- members:
-    users:
-    - test
-  roles:
-  - name: browse
-    grantedAt: current
-    propagates: 'false'
-  name: Browsers
+
